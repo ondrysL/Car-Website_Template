@@ -1,0 +1,20 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-second-section{
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+    background-color: aqua;
+}
+
+.nav-second-section a{
+    
+}
