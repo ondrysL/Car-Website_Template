@@ -1,20 +1,18 @@
 body{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
+h1{
+    color: white;
 }
 
-.nav-second-section{
-    display: flex;
-    gap: 20px;
-    text-transform: uppercase;
-    background-color: aqua;
-}
-
-.nav-second-section a{
-    
+.picture{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('pexels-albin-berlin-919073.jpg');
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
 }
