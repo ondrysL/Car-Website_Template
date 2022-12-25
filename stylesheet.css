@@ -37,3 +37,33 @@ body{
 .logo-red{
     color: red;
 }
+
+.main-text{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.main-header{
+    font-size: 100px;
+    color: white;
+    margin: 0px;
+}
+
+.main-button{
+    border: none;
+    border-radius: 35px;
+    background: red;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 25px 50px;
+    transition: all 1s;
+}
+
+.main-button:hover{
+    background-color: white;
+    color: red;
+    transition: all 1s;
+}
