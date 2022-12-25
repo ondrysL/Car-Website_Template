@@ -4,15 +4,16 @@ body{
     box-sizing: border-box;
 }
 
-h1{
-    color: white;
-}
-
-.picture{
+.header{
     width: 100vw;
     height: 100vh;
     background-image: url('pexels-albin-berlin-919073.jpg');
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
+}
+
+.navbar{
+    color: white;
+    font-size: 50px;
 }
