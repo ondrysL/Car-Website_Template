@@ -31,7 +31,17 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    font-size: 20px;
     
+}
+
+.navbar-menu a{
+    transition: all 1s;
+}
+
+.navbar-menu a:hover{
+    color: red;
+    transition: all 1s;
 }
 
 .logo-red{
@@ -65,5 +75,19 @@ body{
 .main-button:hover{
     background-color: white;
     color: red;
+    transition: all 1s;
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 70px;
+    height: auto;
+    transition: all 1s;
+}
+
+.arrow-down:hover{
+    transform: scale(1.2);
     transition: all 1s;
 }
