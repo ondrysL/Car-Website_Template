@@ -3,6 +3,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .header{
@@ -19,7 +20,7 @@ body{
     flex-wrap: wrap;
     color: white;
     font-size: 30px;
-    padding: 20px;
+    padding: 20px 50px;
 }
 
 .navbar-logo{
@@ -91,3 +92,24 @@ body{
     transform: scale(1.2);
     transition: all 1s;
 }
+
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.services-par{
+
+}
+
+.services-par h1{
+
+}
+
+.services-par p{
+    max-width: 350px;
+}
+
