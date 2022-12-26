@@ -13,9 +13,9 @@
         <nav class="navbar">
             <h1 class="navbar-logo"><span class="logo-red">Your</span>Name</h1>
             <div class="navbar-menu">
-                <a><span>Our</span> services</a>
-                <a>About <span>me</span></a>
-                <a>Contact <span>me</span></a>
+                <a href="#service"><span>Our</span> services</a>
+                <a href="#about">About <span>me</span></a>
+                <a href="#contact">Contact <span>me</span></a>
             </div>
         </nav>
         <div class="main-text">
@@ -27,7 +27,9 @@
         </a>
     </section>
 
-    <section class="services" id="service">
+    <h1 class="section-header" id="service">Services</h1>
+
+    <section class="services">
         <div class="services-par">
              <h1>Lorem ipsum</h1>
              <p>Lorem minim est eiusmod ad consequat pariatur sunt elit esse duis. Ut incididunt quis culpa cupidatat esse. Proident cillum consectetur qui amet.</p>
@@ -42,17 +44,38 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <h1>About us</h1>
         <div class="about-second">
             <img src="mercedes.jpg" class="about-picture">
             <div>
                 <p class="about-text">
                     Ut cupidatat do ullamco id voluptate incididunt ex irure labore aliqua ut velit in. Reprehenderit sit reprehenderit non ipsum. Velit ipsum mollit nisi minim adipisicing aliqua in dolore quis qui aliqua consequat. Quis veniam incididunt est consectetur minim aute mollit veniam aliquip enim nulla nulla voluptate cillum. Id nisi elit proident duis deserunt quis velit anim incididunt duis officia exercitation reprehenderit veniam.<br>
-                    Veniam labore cupidatat eiusmod tempor ipsum culpa commodo reprehenderit. Nisi Lorem elit dolor velit occaecat ullamco mollit esse ullamco ex in eiusmod non deserunt. Culpa consectetur minim veniam minim excepteur aute. Cillum consectetur id mollit ad laboris. Magna ea consectetur sit ut ipsum deserunt excepteur dolor enim consequat. Ex quis ut est laboris laborum anim dolor aliqua qui minim fugiat velit nisi id. Sint dolore laborum do mollit cillum sint commodo Lorem qui cillum mollit officia.<br>
+                    Veniam labore cupidatat eiusmod tempor ipsum culpa commodo reprehenderit. Nisi Lorem elit dolor velit occaecat ullamco mollit esse ullamco ex in eiusmod non deserunt. Culpa consectetur minim veniam minim excepteur aute. Cillum consectetur id mollit ad laboris. Magna ea consectetur sit ut ipsum deserunt excepteur dolor enim consequat. Ex quis ut est laboris laborum anim dolor aliqua qui minim fugiat velit nisi id.<br>
                 </p>
                 <button class="about-button">Contact us!</button>
             </div>
+        </div>
+    </section>
+
+    <section class="form" id="contact">
+        <h1 class="form-header">Contact form</h1>
+        <div class="form-div">
+            <form>
+                <label for="fname">Your name and surename</label>
+                <input type="text" id="fname" name="fname">
+                <label for="femail">Your email</label>
+                <input type="text" id="femail" name="femail">
+                <label for="fphone">Your phone number</label>
+                <input type="text" id="fphone" name="fphone">
+                <label for="fcategory">Select category</label>
+                <select id="fcategory" name="fcategory">
+                    <option value="a1">A1</option>
+                    <option value="a2">A2</option>
+                    <option value="b1">B1</option>
+                </select>
+                <input type="submit" value="Send" class="submit">
+            </form> 
         </div>
     </section>
 </body>
