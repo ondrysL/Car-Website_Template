@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>  
@@ -27,7 +28,10 @@
         </a>
     </section>
 
-    <h1 class="section-header" id="service">Services</h1>
+    <div class="section-header">
+        <h1 id="service">Services</h1>
+        <i class='bx bx-car bx-lg'></i>
+    </div>
 
     <section class="services">
         <div class="services-par">
@@ -45,15 +49,19 @@
     </section>
 
     <section class="about" id="about">
-        <h1>About us</h1>
+        <div class="section-header">
+            <h1 class="form-header">About us</h1>
+            <i class='bx bx-user bx-lg' style='color:#ffffff'></i>
+        </div>
         <div class="about-second">
             <img src="mercedes.jpg" class="about-picture">
             <div>
                 <p class="about-text">
-                    Ut cupidatat do ullamco id voluptate incididunt ex irure labore aliqua ut velit in. Reprehenderit sit reprehenderit non ipsum. Velit ipsum mollit nisi minim adipisicing aliqua in dolore quis qui aliqua consequat. Quis veniam incididunt est consectetur minim aute mollit veniam aliquip enim nulla nulla voluptate cillum. Id nisi elit proident duis deserunt quis velit anim incididunt duis officia exercitation reprehenderit veniam.<br>
-                    Veniam labore cupidatat eiusmod tempor ipsum culpa commodo reprehenderit. Nisi Lorem elit dolor velit occaecat ullamco mollit esse ullamco ex in eiusmod non deserunt. Culpa consectetur minim veniam minim excepteur aute. Cillum consectetur id mollit ad laboris. Magna ea consectetur sit ut ipsum deserunt excepteur dolor enim consequat. Ex quis ut est laboris laborum anim dolor aliqua qui minim fugiat velit nisi id.<br>
+                    Ut cupidatat do ullamco id voluptate incididunt ex irure labore aliqua ut velit in. 
+                    Reprehenderit sit reprehenderit non ipsum. Velit ipsum mollit nisi minim adipisicing aliqua in dolore quis qui aliqua consequat. 
+                    Quis veniam incididunt est consectetur minim aute mollit veniam aliquip enim nulla nulla voluptate cillum. 
+                    Id nisi elit proident duis deserunt quis velit anim incididunt duis officia exercitation reprehenderit veniam.
                 </p>
-                <button class="about-button">Contact us!</button>
             </div>
         </div>
     </section>
@@ -62,7 +70,8 @@
         <h1 class="form-header">Contact form</h1>
         <div class="form-div">
             <form>
-                <label for="fname">Your name and surename</label>
+                <div>
+                    <label for="fname">Your name and surename</label>
                 <input type="text" id="fname" name="fname">
                 <label for="femail">Your email</label>
                 <input type="text" id="femail" name="femail">
@@ -74,6 +83,11 @@
                     <option value="a2">A2</option>
                     <option value="b1">B1</option>
                 </select>
+                </div>
+                <div>
+                    <label for="finfo">More information</label>
+                    <input type="text" id="finfo" name="finfo">
+                </div>
                 <input type="submit" value="Send" class="submit">
             </form> 
         </div>
