@@ -12,17 +12,35 @@
 <body>  
 
     <section class="landing-page">
-        <nav class="navbar">
-            <h1 class="navbar-logo"><span class="logo-red">Your</span>Name</h1>
-            <div class="navbar-menu">
-                <a href="#service"><span>Our</span> services</a>
-                <a href="#about">About <span>me</span></a>
-                <a href="#contact">Contact <span>me</span></a>
+        <nav class="nav">
+
+            <h1 class="nav__logo"><span class="logo-red">Your</span>Name</h1>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#service" class="nav__link">Our services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact me</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x bx-lg' style='color:#ffffff'></i>
+                </div>
+            </div>
+
+            <div class="nav__toogle" id="nav-toogle">
+                <i class='bx bx-menu bx-lg' style='color:#ffffff' ></i>  
             </div>
         </nav>
         <div class="main-text">
             <h1 class="main-text-header">We are the best<span class="logo-red">!</span></h1>
-            <button class="main-button">Let's find the solution</button>
+            <h2 class="main-text-header-second">Find the solution with us</h2>
         </div>
         <a href="#service">
             <img class="arrow-down" src="arrow-done.png">
@@ -74,7 +92,7 @@
         </div>
         <div class="contact-div">
             <form>
-                <div>
+                <div class="box1">
                     <label for="fname">Your name and surename</label>
                     <input type="text" id="fname" name="fname">
                     <label for="femail">Your email</label>
@@ -88,7 +106,7 @@
                         <option value="b1">B1</option>
                     </select>
                 </div>
-                <div>
+                <div class="box2">
                     <label for="finfo">More information</label>
                     <input type="text" id="finfo" name="finfo">
                 </div>
@@ -127,4 +145,7 @@
         </div>
     </section>
 </body>
+
+<script src="main.js"></script>
+
 </html>
