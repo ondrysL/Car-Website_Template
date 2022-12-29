@@ -212,11 +212,13 @@ a{
     padding-bottom: 100px;
 }   
 
-form{
+.sign-in{
     display: grid;
-    grid-template-columns: 400px 400px;
     grid-gap: 30px;
     justify-content: center;   
+    padding: 0px 80px;
+    width: 100%;
+    max-width: 300px;
 }
 
 input[type=text], select{
@@ -241,7 +243,6 @@ input[type=text], select{
     padding: 12px 25px;
     margin-top: 50px;
     transition: all 1s;
-    grid-column: 1 / 3;
 }
 
 .submit:hover{
@@ -278,13 +279,17 @@ input[type=text], select{
     list-style: none;
 }
 
+@media screen and (min-width:500px) {
+    
+}
+
 @media screen and (min-width: 768) {
     .nav__menu{
         width: 40%;
     }
 }
 
-@media screen and (min-width: 1032px){
+@media screen and (min-width: 1030px){
     .nav{
 
     }   
@@ -300,8 +305,15 @@ input[type=text], select{
         column-gap: 50px;
         padding: 0px;
     }
-}
 
+    .sign-in{
+        grid-template-columns: 400px 400px;
+    }
+
+    .submit{
+        grid-column: 1 / 3;
+    }
+}
 
 @media screen and (max-width: 950px) {
     .main-text-header{
@@ -336,7 +348,7 @@ input[type=text], select{
     }
 
     .about-text{
-        max-width: 450px;
+        max-width: 350px;
         text-align: center;
     }
 }
