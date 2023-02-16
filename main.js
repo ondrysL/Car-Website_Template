@@ -11,7 +11,7 @@ if(navToogle){
 if(navClose){
     navClose.addEventListener('click', () => {
         navMenu.classList.remove('show-menu')
-    })
+    })  
 }
 
 const navLink = document.querySelectorAll('.nav__link')
